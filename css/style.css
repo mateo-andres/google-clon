@@ -29,7 +29,7 @@ header nav {
 }
 
 header nav .nav-right-section {
-  width: 20rem;
+  width: 22rem;
   height: auto;
   display: flex;
   list-style: none;
@@ -43,6 +43,10 @@ nav .nav-right-section a {
   color: rgba(0, 0, 0, 0.87);
 }
 
+nav .nav-right-section a:hover {
+  text-decoration: underline;
+}
+
 nav .nav-right-section .menu-icon {
   background-image: url("https://img.icons8.com/ios-glyphs/344/circled-menu.png");
   background-repeat: no-repeat;
@@ -54,6 +58,7 @@ nav .nav-right-section .menu-icon {
 
 nav .nav-right-section img {
   border-radius: 50%;
+  margin-left: 1rem;
 }
 
 main {
@@ -176,4 +181,8 @@ footer .footer-right {
 footer ul li a {
   margin: 10px;
   color: #70757a;
+}
+
+footer ul li a:hover {
+  text-decoration: underline;
 }
