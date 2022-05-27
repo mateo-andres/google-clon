@@ -91,6 +91,7 @@ main .main-input input {
   height: 4rem;
   border: none;
   outline: none;
+  padding: 1rem;
 }
 
 main .main-input-container:hover {
